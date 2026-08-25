@@ -77,15 +77,15 @@ export default function Layout() {
           items: [
             {
               label: "Facebook",
-              href: "#",
+              href: "https://www.facebook.com/p/Quality-car-Valeting-100063664028299/",
             },
             {
               label: "Instagram",
-              href: "#",
+              href: "https://www.instagram.com/valetman69/",
             },
             {
               label: "WhatsApp",
-              href: "#",
+              href: "https://wa.me/447802167343?text=Hi%20Quality%20Car%20Valeting%2C%20I%27d%20like%20to%20enquire%20about%20booking%20a%20valet.",
             },
           ],
         },
