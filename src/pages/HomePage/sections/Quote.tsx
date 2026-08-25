@@ -10,18 +10,15 @@ export default function QuoteSection(): React.JSX.Element {
     <div id="quote" data-section="quote">
         <SectionErrorBoundary name="quote">
               <ContactCta
-          tag="Get A Quote"
-          text="Ready to give your car the finish it deserves? Request a quote for your vehicle today."
-          primaryButton={{
+        tag="Get A Quote"
+        text="Ready to give your car the finish it deserves? Request a quote for your vehicle today."
+        primaryButton={{
             text: "REQUEST A QUOTE",
             href: "#",
           }}
-          secondaryButton={{
-            text: "Message WhatsApp",
-            href: "https://wa.me/123456789",
-          }}
-          textAnimation="fade-blur"
-        />
+        secondaryButton={{"text":"Message WhatsApp","href":"https://wa.me/447802167343?text=Hi%20Quality%20Car%20Valeting%2C%20I%27d%20like%20to%20enquire%20about%20booking%20a%20valet."}}
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );
