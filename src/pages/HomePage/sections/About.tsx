@@ -31,7 +31,7 @@ export default function AboutSection(): React.JSX.Element {
               description: "Premium supplies for superior results.",
             },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/asian-man-wear-all-black-posed-near-suv-car-smoke-hookah_627829-3706.jpg"
+          imageSrc="https://picsum.photos/seed/1878191840/1200/800"
           textAnimation="slide-up"
         />
         </SectionErrorBoundary>
