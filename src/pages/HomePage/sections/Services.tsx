@@ -9,39 +9,45 @@ import { Camera } from "lucide-react";
 
 const features = [
   {
+    id: "wash-shammy",
+    title: "Wash & Shammy",
+    description: "Hand wash and shammy dry for a streak-free exterior clean, brought directly to you.",
+    imageSrc: ""
+  },
+  {
+    id: "basic-valet",
+    title: "Basic Valet",
+    description: "Quick, thorough exterior wash and interior freshen-up for everyday vehicle care.",
+    imageSrc: ""
+  },
+  {
+    id: "standard-valet",
+    title: "Standard Valet",
+    description: "Comprehensive care including full exterior wash and thorough interior vacuuming and wipe-down.",
+    imageSrc: ""
+  },
+  {
     id: "full-valet",
-    title: "Full Mobile Valet",
-    description: "Comprehensive interior and exterior mobile cleaning brought directly to your home or workplace.",
+    title: "Full Valet",
+    description: "Complete interior and exterior mobile valet leaving your car thoroughly refreshed.",
     imageSrc: ""
   },
   {
-    id: "interior-detail",
-    title: "Interior Detailing & Steam Clean",
-    description: "Deep upholstery extraction, leather cleaning & conditioning, stain removal, and cabin sanitisation.",
+    id: "interior-valet",
+    title: "Interior Valet",
+    description: "Focused interior deep clean covering seats, carpets, dashboard, and cabin surfaces.",
     imageSrc: ""
   },
   {
-    id: "exterior-wash",
-    title: "Full Exterior Wash & Decontamination",
-    description: "Focusing on thorough cleaning and removal of surface contaminants for a pristine exterior finish.",
+    id: "regular-valets",
+    title: "Weekly & Monthly Valets",
+    description: "Regular scheduled maintenance valets to keep your vehicle spotless on an ongoing basis.",
     imageSrc: ""
   },
   {
-    id: "interior-deep-clean",
-    title: "Interior Deep Clean",
-    description: "Focusing on thorough vacuuming, upholstery cleaning, and interior surface sanitisation.",
-    imageSrc: ""
-  },
-  {
-    id: "express-maintenance",
-    title: "Express Maintenance Valet",
-    description: "Focusing on a regular maintenance package for ongoing vehicle cleanliness.",
-    imageSrc: ""
-  },
-  {
-    id: "specialist-care",
-    title: "Specialist Detailing & Engine Bay Care",
-    description: "Safe engine bay degreasing, glass hydrophobic treatment, and targeted exterior trim restoration.",
+    id: "exterior-polish",
+    title: "Exterior Polish Including Mopping",
+    description: "Quality hand polish and exterior mopping using top products to restore a deep shine.",
     imageSrc: ""
   }
 ];
