@@ -181,7 +181,7 @@ const QuoteInline = () => {
                     <option value="Full Valet">Full Valet</option>
                     <option value="Interior Valet">Interior Valet</option>
                     <option value="Exterior Detail">Exterior Detail</option>
-                    <option value="Paint Correction">Paint Correction</option>
+                    
                     <option value="Ceramic Coating">Ceramic Coating</option>
                   </select>
                 </div>
