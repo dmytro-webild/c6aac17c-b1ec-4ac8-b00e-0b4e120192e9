@@ -3,7 +3,7 @@
 
 import React from 'react';
 import AboutFeaturesSplit from '@/components/sections/about/AboutFeaturesSplit';
-import { Award, Calendar, CheckCircle, Search, Shield, Sparkles, Truck } from "lucide-react";
+import { CheckCircle, Shield, Sparkles } from "lucide-react";
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function AboutSection(): React.JSX.Element {
@@ -31,7 +31,7 @@ export default function AboutSection(): React.JSX.Element {
               description: "Premium supplies for superior results.",
             },
           ]}
-          imageSrc="https://picsum.photos/seed/1878191840/1200/800"
+          imageSrc=""
           textAnimation="slide-up"
         />
         </SectionErrorBoundary>
