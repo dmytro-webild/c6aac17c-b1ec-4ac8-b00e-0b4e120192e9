@@ -21,21 +21,21 @@ const features = [
     imageSrc: ""
   },
   {
-    id: "paint-correction",
-    title: "Paint Correction & Scratch Removal",
-    description: "Machine polishing to remove swirl marks, minor defects, and oxidation to restore paint depth and gloss.",
+    id: "exterior-wash",
+    title: "Full Exterior Wash & Decontamination",
+    description: "Focusing on thorough cleaning and removal of surface contaminants for a pristine exterior finish.",
     imageSrc: ""
   },
   {
-    id: "ceramic-coating",
-    title: "Ceramic Coating & Paint Protection",
-    description: "Durable paint sealants and ceramic coatings providing weather resistance and easy ongoing maintenance.",
+    id: "interior-deep-clean",
+    title: "Interior Deep Clean",
+    description: "Focusing on thorough vacuuming, upholstery cleaning, and interior surface sanitisation.",
     imageSrc: ""
   },
   {
-    id: "wheel-care",
-    title: "Alloy Wheel & Tyre Care",
-    description: "Iron fallout decontamination, brake dust dissolution, rim cleaning, and protective tyre dressing.",
+    id: "express-maintenance",
+    title: "Express Maintenance Valet",
+    description: "Focusing on a regular maintenance package for ongoing vehicle cleanliness.",
     imageSrc: ""
   },
   {
