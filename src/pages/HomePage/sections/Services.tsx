@@ -101,15 +101,31 @@ const ServicesInline = () => {
         </div>
 
         <ScrollReveal variant="fade-blur" className="w-content-width mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
-            {features.map((feature, index) => (
-              <div key={feature.title} className={cls(colSpans[index], "flex flex-col gap-3 xl:gap-3.5 2xl:gap-4 p-3 xl:p-3.5 2xl:p-4 card rounded")}>
-                <div className="h-60 xl:h-72 2xl:h-80 rounded overflow-hidden bg-foreground/5 shadow shadow-foreground/5">
-                  <ImageOrVideo imageSrc={feature.imageSrc} videoSrc={feature.videoSrc} />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {features.map((feature) => (
+              <div key={feature.title} className="flex flex-col justify-between gap-4 p-5 card rounded-xl border border-foreground/10">
+                <div className="flex flex-col gap-4">
+                  <div className="aspect-video w-full rounded-lg overflow-hidden bg-foreground/5 border border-foreground/10 flex flex-col items-center justify-center text-accent">
+                    {feature.imageSrc ? (
+                      <ImageOrVideo imageSrc={feature.imageSrc} />
+                    ) : (
+                      <div className="flex flex-col items-center gap-2 p-4 text-center">
+                        <div className="p-2.5 rounded-full bg-foreground/5 border border-foreground/10 text-foreground/70">
+                          <Camera className="w-5 h-5" />
+                        </div>
+                        <span className="text-xs font-medium tracking-wide uppercase text-accent/80">Photo Placeholder</span>
+                      </div>
+                    )}
+                  </div>
+                  <div className="flex flex-col gap-1.5">
+                    <h3 className="text-xl font-semibold leading-snug text-foreground">{feature.title}</h3>
+                    <p className="text-sm text-accent leading-relaxed">{feature.description}</p>
+                  </div>
                 </div>
-                <div className="flex flex-col gap-1 p-3 xl:p-3.5 2xl:p-4">
-                  <h3 className="text-2xl font-semibold leading-snug text-balance">{feature.title}</h3>
-                  <p className="text-base leading-snug text-balance">{feature.description}</p>
+                <div className="pt-3 border-t border-foreground/10">
+                  <a href="#quote" className="inline-flex items-center justify-center w-full py-2.5 px-4 text-sm font-semibold rounded primary-button">
+                    Get A Quote
+                  </a>
                 </div>
               </div>
             ))}
